@@ -20,7 +20,7 @@ let x = 0;
 let y = 0;
 const rows = 4;
 const cols = 3;
-const src = "/src/assets/imgs/horse_sprite.png";
+const src = "/imgs/horse_sprite.png";
 let timer: NodeJS.Timer;
 
 $: if (isReset) {
